@@ -1,0 +1,33 @@
+/* Import css url from arcgis */
+@import "https://js.arcgis.com/4.28/@arcgis/core/assets/esri/themes/dark/main.css";
+/* html,
+body,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+#srDiv{
+  height: 40px;
+  padding: 10px;
+} */
+html,
+body,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#info {
+  background-color: rgb(77, 76, 76);
+  border-radius: 1rem;
+  width: 250px;
+  padding: 13px;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
